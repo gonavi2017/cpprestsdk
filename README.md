@@ -66,6 +66,6 @@ This project has adopted the [Microsoft Open Source Code of Conduct](https://ope
 On Mac:
     1) mkdir build.debug
     2) cd build.debug
-    3) cmake ../Release -DCMAKE_BUILD_TYPE=Debug
+    3) cmake ../Release -DCMAKE_BUILD_TYPE=Debug or cmake ../Release -G Xcode -DCMAKE_BUILD_TYPE=Debug
     4) cd Binaries
     5) ./test_runner *_test.dylib
